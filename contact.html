@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | IronPulse Fitness Chandigarh</title>
+  <meta name="description" content="Get in touch with IronPulse Fitness, Chandigarh — map, timings, email, phone, and WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <a class="logo" href="index.html">IronPulse <span>Fitness</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="plans.html">Plans</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-primary" href="#contactForm">Join Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Open Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section page-hero">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <p class="muted">We’d love to help you start your fitness journey.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split contact-split">
+      <div class="split-media map">
+        <iframe src="https://www.google.com/maps?q=Chandigarh&output=embed" width="100%" height="380" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="split-content">
+        <h2>Say Hello</h2>
+        <form id="contactForm" class="contact-form">
+          <div class="grid form-grid">
+            <label>Full Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>Email
+              <input type="email" name="email" placeholder="name@example.com" required />
+            </label>
+            <label>Phone
+              <input type="tel" name="phone" placeholder="+91" required />
+            </label>
+            <label>Message
+              <textarea name="message" rows="4" placeholder="How can we help?" required></textarea>
+            </label>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <div id="contactStatus" class="muted" aria-live="polite" style="margin-top:8px"></div>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>Timings:</strong> Mon–Sun · 6:00 AM – 10:00 PM</p>
+          <p><strong>Email:</strong> <a href="mailto:hello@ironpulsefitness.in">hello@ironpulsefitness.in</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+917000000000">+91 70000 00000</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/917000000000" target="_blank" rel="noopener">Chat with us</a></p>
+          <div class="socials">
+            <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">📸</a>
+            <a href="https://wa.me/917000000000" aria-label="WhatsApp" target="_blank" rel="noopener">💬</a>
+            <a href="https://youtube.com" aria-label="YouTube" target="_blank" rel="noopener">▶️</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">IronPulse <span>Fitness</span></a>
+        <p class="muted">SCO 123, Sector 35, Chandigarh, India</p>
+        <p class="muted">Open: Mon–Sun · 6:00 AM – 10:00 PM</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="plans.html">Plans</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+917000000000">+91 70000 00000</a></li>
+          <li><a href="mailto:hello@ironpulsefitness.in">hello@ironpulsefitness.in</a></li>
+          <li><a href="https://maps.google.com/?q=Chandigarh" target="_blank" rel="noopener">View on Map</a></li>
+        </ul>
+        <div class="socials">
+          <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener">📸</a>
+          <a href="https://wa.me/917000000000" aria-label="WhatsApp" target="_blank" rel="noopener">💬</a>
+          <a href="https://youtube.com" aria-label="YouTube" target="_blank" rel="noopener">▶️</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> IronPulse Fitness · All Rights Reserved</small>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/917000000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+  <script src="java.js"></script>
+</body>
+</html>
+
+
